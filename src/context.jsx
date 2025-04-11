@@ -1,4 +1,4 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, useEffect } from 'react';
 import useFetch from './hooks/use-fetch';
 import { getCurrentUser } from './db/apiAUth';
 
