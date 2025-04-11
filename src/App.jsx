@@ -4,10 +4,10 @@ import AppLayout from './layout/app-layout';
 import LandingPage from './pages/LandingPage';
 import Auth from './pages/Auth';
 import Link from './pages/Link';
-import RedirectLink from './pages/RedirectLink';
 import Dashboard from './pages/Dashboard';
 import UrlProvider from './context';
 import RequireAuth from './components/require-auth';
+import RedirectLink from './pages/redirect-link';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/:id',
-        element: <RedirectLink />,
+        element: <RedirectLink />
       },
     ],
   },
