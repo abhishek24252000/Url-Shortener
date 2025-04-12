@@ -11,7 +11,7 @@ import {Input} from "@/components/ui/input";
 import {Card} from "./ui/card";
 import {useNavigate, useSearchParams} from "react-router-dom";
 import {useEffect, useRef, useState} from "react";
-import Error from "./error";
+import Error from "./Error";
 import * as yup from "yup";
 import useFetch from "@/hooks/use-fetch";
 import {createUrl} from "@/db/apiUrls";
